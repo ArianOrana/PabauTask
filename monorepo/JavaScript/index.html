@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form id="checkboxForm">
+      <div id="checkboxContainer">
+        <label
+          ><input type="checkbox" name="checkbox" value="Internship" />
+          Internship</label
+        ><br />
+        <label
+          ><input type="checkbox" name="checkbox" value="Pabau" /> Pabau</label
+        ><br />
+        <label
+          ><input type="checkbox" name="checkbox" value="Employment" />
+          Employment</label
+        ><br />
+        <label
+          ><input type="checkbox" name="checkbox" value="Career" />
+          Career</label
+        ><br /><br />
+      </div>
+      <button type="button" onclick="shuffleValues()">Shuffle Values</button>
+      <button type="button" onclick="changeValues()">Change Values</button>
+      <button type="button" onclick="showSelectedValues()">
+        Show selected values
+      </button>
+    </form>
+    <div id="selectedValues"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
